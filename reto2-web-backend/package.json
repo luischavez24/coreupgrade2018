@@ -1,0 +1,17 @@
+{
+  "name": "reto2-web-backend",
+  "version": "1.0.0",
+  "description": "Programa de prueba en node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Luis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "yargs": "^11.0.0"
+  }
+}
