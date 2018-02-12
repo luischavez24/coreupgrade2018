@@ -1,0 +1,147 @@
+body {
+	font-family: Arial, Helvetica;
+	font-size: 13px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+button{
+	border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+nav, footer{
+	height: 20%;
+}
+main{
+	text-align: center;
+	padding: 8% 0;
+	height: 60%;
+}
+
+.navbar {
+	width: 100%;
+	margin: 25px 0px;
+	text-align: right;
+}
+.container {
+	padding: 1%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 25px 20px;
+}
+.navbar ul .nav-item {
+	display: inline;
+}
+.navbar ul .nav-item .nav-link {
+	padding: 5px;
+	color: #000;
+}
+
+.navbar ul .nav-item .nav-link:hover{
+	text-decoration: underline;
+}
+
+.footer {
+	float: right;
+	background-color: #EAEAEC;
+	width: 100%;
+	margin:  0;
+	padding: 0;
+}
+
+.footer ul {
+	display: inline;
+	padding: 9.5px;
+	list-style-type: none;
+	margin: 5px 20px;
+}
+.footer ul .nav-item {
+	display: inline;
+}
+.footer ul .nav-item .nav-link {
+	padding: 5px;
+	color: #909090;
+}
+
+.footer ul .nav-item .nav-link:hover{
+	text-decoration: underline;
+}
+
+.btn{
+	margin: 15px; 
+	padding: 10px 15px;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+.btn-primary{
+	background-color: #4285f4;
+	color: #fff;
+}
+
+.btn-primary: hover {
+	background-color: #4268F4;
+}
+
+.btn-gray {
+	font-weight: bold;
+	background-color: #EAEAEC;
+	border: 0.5x #EAEAEC solid;
+	color: #A0A0A1;
+}
+.btn-gray:hover {
+	background-color: #EAEAEC;
+	border: 0.5px #909090 solid;
+	color: #000000;
+}
+
+.text-left{
+	float: left;
+	text-align: left;
+}
+
+.text-right {
+	float:right;
+	text-align: right;
+}
+
+.text-box{
+	font-size: 16px;
+	margin: 1% 0;
+	padding: 12px;
+	width: 500px;
+	border: 0.5px #EAEAEC solid;
+	box-shadow: 2px 2px 5px 0px rgba(224,213,224,1);
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(224,213,224,1);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(224,213,224,1);
+	box-shadow: 2px 2px 5px 0px rgba(224,213,224,1);
+}
