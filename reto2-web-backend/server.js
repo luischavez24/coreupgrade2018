@@ -29,6 +29,12 @@ var argv = require('yargs')
 		   		name: contactName,
 		   		phone: contactPhone
 		   })
+		   .command('read', 'Busca un contacto',{
+		   		name: contactName,
+		   })
+		   .command('remove', 'Elimina un contacto',{
+		   		name: contactName,
+		   })
 		   .argv;
 
 // Recoge el comando actual
@@ -46,4 +52,12 @@ if(command == 'list'){
 			'phone': _.toString(argv.phone)
 		}
 	);
+} else if(command == 'read') {
+	// Busca un contacto
+	contactService.read(argv.name);
+} else if(command == 'remove') {
+	// Elimina un contacto
+	contactService.remove(argv.name);
+} else {
+	console.log("Comando no reconocido");
 }
